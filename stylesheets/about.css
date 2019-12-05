@@ -5,13 +5,11 @@ body {
 }
 
 #nav-bar {
-    display: block;
     list-style-type: none;
     width: 100%;
     top: 50%;
-    left: 100px;
-    margin: 0;
-    padding: 0;
+    left: 50%;
+    margin: 10px;
 }
 
 .nav-item {
