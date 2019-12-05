@@ -1,15 +1,34 @@
-body {
-    width: 100%;
-    height: 100%;
+h1 {
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+#profile-side {
+    position: relative;
     margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+}
+
+#profile-pic {
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: 45%;
+    left: 100%;
+    border-radius: 25px 25px;
 }
 
 #nav-bar {
+    position: relative;
     display: block;
     list-style-type: none;
     width: 100%;
-    top: 50%;
-    left: 100px;
+    height: 25%;
+    left: 35%;
+    top: 25%;
     margin: 0;
     padding: 0;
 }
@@ -19,6 +38,11 @@ body {
     padding: 10px;
 }
 
+li {
+    display: inline;
+}
+
 a:link {
     text-decoration: none;
+    display: inline;
 }
