@@ -1,23 +1,37 @@
+article {
+    height: 100%;
+}
+
 h1 {
     left: 50%;
     top: 50%;
     text-align: center;
 }
 
-#profile-side {
-    position: relative;
+#info-side {
+    position: absolute;
     margin: 0;
     padding: 0;
     width: 50%;
     height: 100%;
+    float: right;
+}
+
+#profile-side {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 
 #profile-pic {
     position: relative;
-    width: 200px;
+    width: 300px;
     height: auto;
-    top: 45%;
-    left: 100%;
+    top: 10%;
+    left: 25%;
     border-radius: 25px 25px;
 }
 
