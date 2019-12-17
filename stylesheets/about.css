@@ -4,6 +4,10 @@ html {
     height: 100%;
 }
 
+p {
+    margin: 0;
+}
+
 #background-top {
     position: fixed;
     width: 100%;
@@ -15,24 +19,26 @@ html {
 
 #content {
     margin: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
 #nav-bar {
-    position: relative;
+    position: absolute;
     display: inline;
     float: right;
+    top: 3%;
+    left: 60%;
+    margin: 10px;
     margin-right: 3%;
+    z-index: 10;
 }
 
 #nav-bar-list {
     list-style-type: none;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    margin: 10px;
 }
 
 .nav-item {
@@ -72,43 +78,58 @@ html {
 }
 
 #profile-img {
-    position: relative;
+    position: absolute;
     display: inline;
-    width: 210px;
+    width: 230px;
     height: auto;
-    margin-left: 5%;
-    margin-top: 130px;
+    top: 20%;
+    left: 6%;
     border-radius: 15px;
 }
 
 #resume-box {
-    position: relative;
+    position: absolute;
     float: right;
     display: inline;
     top: 15%;
-    width: 40%;
-    margin-right: 17%;
-    background-color: white;
+    left: 37%;
+    width: 560px;
+    background-image: linear-gradient(to bottom right, powderblue, goldenrod);
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
 }
 
+.edu-desc {
+    margin-left: 20px;
+}
+
+.extra-desc {
+    margin-left: 20px;
+}
+
+.curricular-list {
+    margin-left: 20px;
+}
+
 #contact-me {
-    position: relative;
+    position: absolute;
     float: left;
     display: inline;
-    width: 200px;
-    height: 200px;
-    margin-top: 170px;
-    margin-left: 5%;
+    width: 230px;
+    height: 230px;
+    top: 64%;
+    left: 6%;
     border-radius: 20px;
-    text-align: center;
-    background-image: linear-gradient(to bottom right, lightgrey, silver);
+    text-align: left;
+    background-image: linear-gradient(to right, midnightblue, lightsteelblue);
 }
 
 #contact-title {
+    text-align: center;
+    margin-top: 10%;
     margin-bottom: 0;
+    color: white;
 }
 
 #list-of-links {
@@ -118,7 +139,8 @@ html {
 
 .contact-link {
     font-size: 20px;
-    color: black;
+    margin-left: 40px;
+    padding: 6px;
 }
 
 #Github-icon {
@@ -131,9 +153,15 @@ html {
     height: auto;
 }
 
+#Email-icon {
+    width: 25px;
+    height: auto;
+}
+
 
 
 a:link {
+    color: white;
     text-decoration: none;
 }
 
@@ -141,3 +169,4 @@ a:visited {
     color: white;
     text-decoration-color: darkgrey;
 }
+
