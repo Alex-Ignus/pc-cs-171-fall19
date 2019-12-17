@@ -1,7 +1,3 @@
-article {
-    height: 100%;
-}
-
 h1 {
     left: 50%;
     top: 50%;
@@ -15,6 +11,17 @@ h1 {
     width: 50%;
     height: 100%;
     float: right;
+}
+
+#background-top {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(to bottoom right, black, lightslategrey, darkslateblue);
+    margin: 0;
+    left: 0%;
+    top: 0%;
+    color: white;
 }
 
 #profile-side {
@@ -36,15 +43,11 @@ h1 {
 }
 
 #nav-bar {
-    position: relative;
-    display: block;
     list-style-type: none;
     width: 100%;
-    height: 25%;
-    left: 35%;
-    top: 25%;
-    margin: 0;
-    padding: 0;
+    top: 50%;
+    left: 50%;
+    margin: 10px;
 }
 
 .nav-item {

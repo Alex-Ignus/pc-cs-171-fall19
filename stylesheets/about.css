@@ -1,10 +1,52 @@
-body {
-    width: 100%;
-    height: 100%;
+html {
     margin: 0;
+    font-family: "Roboto", Sans-serif;
+}
+
+#background-top {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(to bottom right, black, lightslategrey, darkslateblue);
+    margin: 0;
+    left: 0%;
+    top: 0%;
+    color: white;
+}
+
+#contact-me {
+    position: relative;
+    display: inline;
+    background-image: linear-gradient(to bottom right, lightgrey, silver);
+    width: 200px;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+#list-of-links {
+    display: inline;
+    list-style-type: none;
+}
+
+.contact-link {
+    font-size: 20px;
+    color: black;
+}
+
+#content {
+    margin-left: 22px;
+    margin-top: 22px;
 }
 
 #nav-bar {
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 3%;
+}
+
+#nav-bar-list {
     list-style-type: none;
     width: 100%;
     top: 50%;
@@ -15,8 +57,75 @@ body {
 .nav-item {
     display: inline;
     padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
+
+#first-nav-item {
+    border-left-style: none;
+}
+
+#last-nav-item {
+    border-right-style: none;
+}
+
+#page-title {
+    position: fixed;
+    font-size: 40px;
+    font-weight: lighter;
+    display: inline;
+    margin: 0;
+    margin-top: 7px;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
+    color: white;
+}
+
+#profile-img {
+    position: relative;
+    display: inline;
+    width: 210px;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 130px;
+    border-radius: 15px 15px;
+}
+
+#resume-box {
+    position: relative;
+    float: right;
+    display: inline;
+    margin-right: 25%;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#Github-icon {
+    width: 25px;
+    height: auto;
+}
+
+#LinkedIn-icon {
+    width: 25px;
+    height: auto;
+}
+
+
 
 a:link {
     text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration-color: darkgrey;
 }
