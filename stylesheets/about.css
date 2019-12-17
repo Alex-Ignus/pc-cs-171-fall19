@@ -35,9 +35,6 @@ p {
     margin: 10px;
     margin-right: 3%;
     z-index: 10;
-}
-
-#nav-bar-list {
     list-style-type: none;
 }
 
@@ -85,6 +82,7 @@ p {
     top: 20%;
     left: 6%;
     border-radius: 15px;
+    box-shadow: 10px 12px 6px 2px darkslategray;
 }
 
 #resume-box {
@@ -98,6 +96,7 @@ p {
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    box-shadow: 10px 12px 6px 2px lightslategrey;
 }
 
 .edu-desc {
@@ -123,6 +122,7 @@ p {
     border-radius: 20px;
     text-align: left;
     background-image: linear-gradient(to right, midnightblue, lightsteelblue);
+    box-shadow: 10px 12px 6px 2px darkgrey;
 }
 
 #contact-title {

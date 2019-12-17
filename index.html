@@ -5,21 +5,24 @@
       <title>My Website</title>
       <link rel="stylesheet" href="stylesheets/index.css">
     </head>
+
     <section id="background-top"></section>
     <nav id="nav-bar">
-        <a class="nav-item" href="index.html">Home</a>
-        <a class="nav-item" href="templates/about.html">About</a>
-        <a class="nav-item" href="templates/projects.html">Projects</a>
-        <a class="nav-item" href="templates/interests.html">Interests</a>
+        <ul>  
+            <li id="first-nav-item" class="nav-item"><a  href="index.html">Home</a></li>
+            <li class="nav-item"><a href="templates/about.html">About</a></li>
+            <li class="nav-item"><a href="templates/projects.html">Projects</a></li>
+             <li id="last-nav-item" class="nav-item"><a href="templates/interests.html">Interests</a></li>
+        </ul>
     </nav>
     <article>
-        <h1>home page</h1>
-        <section id="profile-side">
-            <img id="profile-pic" src="https://i.pinimg.com/736x/cf/0c/a5/cf0ca53ef3112c4700e8f3783dfed7bf.jpg" alt="image of peter(me)">
-        </section>
-        <section id="info-side">
-            <h1 id="name-header">Peter Chuong</h1>
-            <p>Born and raised in San Francisco, California.
+        <h1 id="page-title">HOME</h1>
+        <img id="profile-pic" src="https://i.pinimg.com/736x/cf/0c/a5/cf0ca53ef3112c4700e8f3783dfed7bf.jpg" alt="image of peter(me)">
+        <section id="info-box">
+            <h1 id="name">Peter Chuong</h1>
+            <h3 id="bio-title">Bio:</h3>
+            <p id="bio">Born and raised in San Francisco, California, I am currently a Junior Computer Science student pursuing a Bachelor Degree at the University of San Francisco.<br>
+            At the same time, I am also a teaching assistant for a Java course at USF.</p>
         </section>
     </article>
 </html>

@@ -1,65 +1,118 @@
-h1 {
-    left: 50%;
-    top: 50%;
-    text-align: center;
-}
-
-#info-side {
-    position: absolute;
+html {
     margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: right;
-}
-
-#background-top {
-    position: absolute;
+    font-family: "Roboto", Sans-serif;
     width: 100%;
-    height: 60%;
-    background-image: linear-gradient(to bottoom right, black, lightslategrey, darkslateblue);
-    margin: 0;
-    left: 0%;
-    top: 0%;
+    height: 100%;
     color: white;
 }
 
-#profile-side {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-#profile-pic {
-    position: relative;
-    width: 300px;
-    height: auto;
-    top: 10%;
-    left: 25%;
-    border-radius: 25px 25px;
+#background-top {
+    position: fixed;
+    width: 100%;
+    height: 60%;
+    top: 0%;
+    left: 0%;
+    background-image: linear-gradient(to bottom right, black, lightslategrey, darkslateblue);
 }
 
 #nav-bar {
-    list-style-type: none;
-    width: 100%;
-    top: 50%;
-    left: 50%;
+    position: absolute;
+    display: inline;
+    float: right;
+    top: 3%;
+    left: 60%;
     margin: 10px;
+    margin-right: 3%;
+    z-index: 10;
+    list-style-type: none;
 }
 
 .nav-item {
     display: inline;
     padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
-li {
+#first-nav-item {
+    border-left-style: none;
+}
+
+#last-nav-item {
+    border-right-style: none;
+}
+
+#page-title {
+    position: fixed;
     display: inline;
+    top: 4%;
+    left: 5%;
+    margin: 0;
+    margin-top: 7px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
+    color: white;
+}
+
+#profile-pic {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 30%;
+    left: 10%;
+    border-radius: 15px;
+    box-shadow: 10px 12px 6px 2px darkgrey;
+}
+
+#info-box {
+    position: absolute;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    left: 50%;
+    top: 25%;
+    float: right;
+    width: 420px;
+    height: 450px;
+    border-radius: 20px;
+    color: black;
+    background-image: linear-gradient(to bottom right, powderblue, mintcream);
+    text-align: left;
+    box-shadow: 10px 10px 6px 2px darkgrey;
+}
+
+#name {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#bio-title {
+    position: relative;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#bio {
+    margin-left: 25px;
+    margin-top: 5px;
 }
 
 a:link {
+    color: white;
     text-decoration: none;
-    display: inline;
+}
+
+a:visited {
+    color: white;
+    text-decoration-color: darkgrey;
 }
