@@ -61,12 +61,108 @@ html {
     color: white;
 }
 
+#cs-topics {
+    position: absolute;
+    padding: 20px;
+    top: 23%;
+    left: 8%;
+    background-image: linear-gradient(to bottom right, olivedrab, paleturquoise, skyblue);
+    border-radius: 15px;
+    box-shadow: 10px 12px 6px 2px lightsteelblue;
+}
+
+#bookmarked {
+    position: absolute;
+    padding: 15px;
+    width: 450px;
+    top: 17%;
+    left: 50%;
+    background-image: linear-gradient(to bottom right, Teal, lightsteelblue, grey);
+    border-radius: 15px;
+    box-shadow: 10px 10px 6px 1px lightslategrey;
+}
+
+.bm-topic {
+    padding: 5px;
+}
+
+#suggestion-box {
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    width: 525px;
+    padding: 20px;
+}
+
+#fav-shows {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    list-style-type: none;
+}
+
+#show-list {
+    padding: 0px, 10px, 0px;
+    margin: 0;
+}
+
+#shows-title {
+    margin-bottom: 0px; 
+}
+
+.show {
+    padding: 5px;
+}
+
 a:link {
     color: white;
+    text-decoration: none;
+}
+
+#sugg-form:link {
+    color: black;
+    text-decoration: underline;
+}
+
+.show-link:link {
+    color: black;
     text-decoration: none;
 }
 
 a:visited {
     color: white;
     text-decoration-color: darkgrey;
+}
+
+#sugg-form:visited {
+    color: black;
+}
+
+.show-link:visited {
+    color: black;
+}
+
+#netflix-icon {
+    width: 25px;
+    height: auto;
+}
+
+#black-mirror-icon {
+     width: 25px;
+    height: auto;
+}
+
+#flash-icon {
+    width: 25px;
+    height: auto;
+}
+
+#ub-icon {
+    width: 25px;
+    height: auto;
+}
+
+#bojack-icon {
+    width: 25px;
+    height: auto;
 }
