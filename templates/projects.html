@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>My Website</title>
       <link rel="stylesheet" href="../stylesheets/projects.css">
+      <script src="../scripts/projects.js"></script>
     </head>
 
     <section id="background-top"></section>
@@ -18,19 +19,33 @@
     <h1 id="page-title">PROJECTS</h1>
     <section id="project-list">
         <h2 id="project-title">NAME</h2>
-        <ul id="p-list">
-            <li class="project">Search Engine</li>
-            <li class="project">Command line shell</li>
-        </ul>
+        <section id="p-list">
+            <button class="proj-button" onclick="viewProject(event, 'Search-Engine')">Search Engine</button>
+            <button class="proj-button" onclick="viewProject(event, 'Cmd-line-Shell')">Command line shell</button>
+        </section>
     </section>
-    <article class="project-details">
-        <h1 id="project-name">Search Engine</h1>
-        <p id="proj-desc">Created a Search Engine backend utilizing frameworks and libraries such as Apache Commons Lib and log4j2</p>
-        <p id="start-date"><b>Start-date</b>:&nbsp;&nbsp;&nbsp;&nbsp;Aug 2018</p>
-        <p id="status">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Status</b>:&nbsp;&nbsp;&nbsp;&nbsp;Still making changes</p>
-        <p id="repo-link"><a href="https://github.com/pechuong/Search_Engine">Github Repo Link</a></p>
-        <p id="lang-used">Languages used:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java 10</p>
-        <p id="lib-used">Libraries/API used:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apache Common, Apache Text</p>
-        <img src=".." alt="picture of code">
+
+    <article id="pd-overlay" class="project-details">
+        <h1 id="overlay-title">PROJECT<br>DESCRIPTION</h1>
     </article>
+
+    <article id="Search-Engine" class="project-details">
+        <h1 class="project-name">Search Engine</h1>
+        <p class="proj-desc">Created a Search Engine backend utilizing frameworks and libraries such as Apache Commons Lib and log4j2</p>
+        <p class="start-date"><b>Start-date</b>:&nbsp;&nbsp;&nbsp;&nbsp;Aug 2018</p>
+        <p class="status">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Status</b>:&nbsp;&nbsp;&nbsp;&nbsp;Still making changes</p>
+        <p class="repo-link"><a href="https://github.com/pechuong/Search_Engine">Github Repo Link</a></p>
+        <p class="lang-used">Languages used:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java 10</p>
+        <p class="lib-used">Libraries/API used:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apache Common, Apache Text</p>
+        <img class="code-snip" src="../graphics/se-snippet.png" alt="picture of code">
+    </article>
+    <article id="Cmd-line-Shell" class="project-details">
+        <h1 class="project-name">Command Line Shell</h1>
+        <p class="proj-desc">Created a Shell using the standard C library</p>
+        <p class="start-date"><b>Start-date</b>:&nbsp;&nbsp;&nbsp;&nbsp;March 2019</p>
+        <p class="status">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Status</b>:&nbsp;&nbsp;&nbsp;&nbsp;Finished</p>
+        <p class="lang-used">Languages used:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C lang</p>
+        <img class="code-snip" src="../graphics/shell-snippet.png" alt="picture of code">
+    </article>
+
 </html>
